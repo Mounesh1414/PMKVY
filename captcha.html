@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha</title>
+    <link rel="stylesheet" href="Captcha.css">
+
+</head>
+
+<body>
+
+
+
+
+    <div class="captcha">
+        <h1>Captcha</h1>
+
+        <div class="container">
+            <div class="title">
+
+                <p>Enter the text you see in the image below:</p>
+            </div>
+            <div class="abc">
+                <input type="text" id="box1">
+                <button onclick="generate()">Refresh</button>
+
+                <input type="text" id="box2" placeholder="Captcha will appear here">
+                <button onclick="check()">Submit</button>
+            </div>
+            <p id="res"></p>
+
+        </div>
+    </div>
+
+    <script src="Captcha.js"></script>
+</body>
+
+</html>
