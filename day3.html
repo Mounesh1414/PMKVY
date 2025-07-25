@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="day3.css">
+</head>
+
+<body>
+    <div class="back">
+        <center>
+            <h1 class="head">
+                Calculator
+            </h1>
+            <div class="cal">
+                <input class="bx" id="BOX1" placeholder="Enter the number">
+                <input class="bx" id="BOX2" placeholder="Enter the number">
+
+                <div class="bt">
+                    <button class="do" onclick="add()">Addition</button>
+                    <button class="do" onclick="sub()">Subtraction</button>
+                    <button class="do" onclick="mul()">Multiplication</button>
+                    <button class="do" onclick="div()">Division</button>
+
+                </div>
+                <p class="ro" id="Result"></p>
+            </div>
+
+
+
+
+            <script>
+                function add() {
+                    let box1 = Number(document.getElementById("BOX1").value);
+                    let box2 = Number(document.getElementById("BOX2").value);
+                    document.getElementById("Result").innerHTML = (box1 + box2);
+
+                }
+                function sub() {
+                    let box1 = Number(document.getElementById("BOX1").value);
+                    let box2 = Number(document.getElementById("BOX2").value);
+                    document.getElementById("Result").innerHTML = (box1 - box2);
+                }
+
+                function mul() {
+                    let box1 = Number(document.getElementById("BOX1").value);
+                    let box2 = Number(document.getElementById("BOX2").value);
+                    document.getElementById("Result").innerHTML = (box1 * box2);
+                }
+
+                function div() {
+                    let box1 = Number(document.getElementById("BOX1").value);
+                    let box2 = Number(document.getElementById("BOX2").value);
+                    document.getElementById("Result").innerHTML = (box1 / box2);
+                }
+
+
+
+
+
+                // console.log(10-true); // 9
+                // console.log(3**2); // 9
+                // console.log(10/3); // 3.3333333333333335
+                // console.log(10%3); // 1
+                // console.log("abc"-1); // NaN
+                // console.log("56"/2); // 28
+                // console.log(56>4); // true
+                // console.log("10"==10);
+                // console.log(true&&false&&false&&true);
+
+                // console.log( "1");
+                // if(false)
+
+                // {
+
+                //     console.log("2")
+                //     console
+                // }
+
+                // console.log("3")
+
+                // let a=-50;
+
+                // if(a>0)
+
+                // console.log("positive");
+
+                // else
+                // console.log("negative")
+
+                // let a=10;
+                // let b=0;
+                // if(a>b){
+                //     console.log("a is greater than b");
+                // } else if(a<b) {
+                //     console.log("b is greater than a");
+                // } else {
+                //     console.log("a is equal to b");
+                // }
+
+
+                // console.log("1");
+                // if(true) {
+                //     console.log("2");
+                // } else(true) {
+                //     console.log("2");
+                // else if(true) {
+                //     console.log("3");
+                // } else {
+                //     console.log("4");
+                // }
+                // console.log("5");
+
+                // function aba()
+                // {
+                //     console.log("1");
+                //     console.log("2");
+                // }
+
+                // console.log("3");
+                // aba()
+                // console.log("4");
+                // aba()
+                // console.log("5");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </script>
+
+    </div>
+</body>
+
+</html>
